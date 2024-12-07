@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="icon" href="/img/Helmet-Integral-Ayrton-Senna-byRundvald.png" />
+  </head>
+  <body>
+    <form method="" action="">
+      <div id="formulario">
+        <h1><u>Información de contacto</u></h1>
+
+        <label for="nombre">Nombre*</label><br />
+        <input type="text" required id="nombre" name="nombre" />
+        <br /><br />
+
+        <label for="apellidos">Apellidos*</label><br />
+        <input type="text" required id="apellidos" name="apellidos" />
+        <br /><br />
+
+        <label for="email">Correo electrónico*</label><br />
+        <input type="email" required id="email" name="email" />
+        <br /><br />
+
+        <label for="email">Confirma correo electrónico*</label><br />
+        <input type="email" required id="email" name="email" />
+        <br /><br />
+
+        <label for="password">Contraseña*</label><br />
+        <input type="password" required id="password" name="password" />
+        <br /><br />
+
+        <label for="direccion">Dirección</label><br />
+        <input type="text" id="direccion" name="direccion" />
+        <br /><br />
+
+        <fieldset>
+          <legend>Información del simulador</legend>
+          <label for="simulador">Simulador que usas</label>
+          <br />
+          <select id="simulador" name="simulador">
+            <option value="null"></option>
+            <option value="iracing">iRacing</option>
+            <option value="asseto">Asseto Corsa</option>
+            <option value="assetocompeti">Asseto Corsa Competizione</option>
+            <option value="rbr">Richard Burns Rally</option>
+            <option value="f1">F1 Codemasters</option>
+            <option value="rennsport">Rennsport</option>
+            <option value="granturismo">Gran Turismo</option>
+          </select>
+          <br /><br /><br />
+          <label for="config">Con qué configuración corres:</label>
+          <br />
+          <input type="radio" id="pantallas" name="config" />
+          <label for="pantallas">Una pantalla</label>
+
+          <input type="radio" id="pantallas3" name="config" />
+          <label for="pantallas3">Triple pantalla</label>
+
+          <input type="radio" id="vr" name="config" />
+          <label for="vr">Gafas VR</label>
+        </fieldset>
+        <br />
+
+        <br />
+
+        <textarea id="dudas" name="dudas" rows="10" cols="40">Escríbeme las preguntas que tengas...</textarea>
+
+        <br /><br />
+        <input type="submit" value="Enviar" />
+        <br /><br />
+        <p id="campos">* Campos obligatorios</p>
+      </div>
+    </form>
+  </body>
+</html>
