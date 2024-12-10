@@ -7,8 +7,7 @@
 section h1 {
     border: 2px solid;
     border-radius: 4px;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 100%;
 }
 
 nav {
@@ -20,6 +19,7 @@ nav {
 nav ul {
     width: 100%;
     float: right;
+    text-align: center;
 }
     
 nav ul li {
@@ -61,7 +61,7 @@ body {
 
     padding: 2px;
     margin: 0 auto;
-    width: 1024px;
+    width: 70%;
     padding-top: 20px;
     justify-content: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtZaxbc0K8rn9glfvlcZO9YlV0ENfZ2F9GFw&s);
